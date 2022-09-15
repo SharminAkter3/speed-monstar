@@ -18,7 +18,7 @@
 <body>
     <section class="container">
         <div>
-            <h3>1. What is the difference between local storage and session storage</h3>
+            <h3>1. What is the difference between local storage and session storage ?</h3>
             <p>The Storage interface of the Web Storage API provides access to a particular domain's session or local
                 storage. It allows, for example, the addition, modification, or deletion of stored data items.</p>
             <p>The one major difference between localStorage and sessionStorage is the expiration date.</p>
@@ -30,8 +30,22 @@
             </p>
         </div>
         <div>
-
+            <h3>2. What is the difference between Global Scope and Block Scope ?</h3>
+            <p>In contrast to global variables, locally scoped ones are only visible within the function they are
+                declared. Each function written in JavaScript creates a new local scope and every variable declared in
+                this scope is a local variable. That means that variables with the same name can be used in different
+                functions.</p>
+            <p>So far, we've seen variables defined with the var keyword. Var can declare a variable either in the
+                global or local scope. The variables that are declared within the block scope are comparable to local
+                ones. They are available within the block that they are defined.</p>
+            <p>
+                The main difference between the local scope and block scope is that the block statements (e.g. if
+                conditions or for loops), don't create a new scope. So the var keyword will not have an effect, because
+                the variables are still in the same scope.
+            </p>
         </div>
+
+
     </section>
 
 </body>
