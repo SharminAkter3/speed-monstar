@@ -44,7 +44,21 @@
                 the variables are still in the same scope.
             </p>
         </div>
-
+        <div>
+            <h3>3. Write down the working process of Event Loop in JavaScript ? </h3>
+            <p> The common denominator in all environments is a built-in mechanism called the event loop, which handles
+                the
+                execution of multiple chunks of your program over time, each time invoking the JS Engine.
+            </p>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it.</p>
+            <p>
+                The browser is then set up to listen for the response from the network, and when it has something to
+                return to you, it will schedule the callback function to be executed by inserting it into the event
+                loop.
+            </p>
+        </div>
 
     </section>
 
